@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "721344301979",
+    "firebase_url": "https://tibbiodev.firebaseio.com",
+    "project_id": "tibbiodev",
+    "storage_bucket": "tibbiodev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721344301979:android:3321cd520f5aae78",
+        "android_client_info": {
+          "package_name": "com.mathheals.tibbi_odev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721344301979-m1lpmmeaaj3ilmj8vved1lik3s43trgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mathheals.tibbi_odev",
+            "certificate_hash": "d22825b872301501028f4814caf9a97224f7ebd6"
+          }
+        },
+        {
+          "client_id": "721344301979-gh6uotbhhcbco5m55mdoeipf508t20fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtCh-vxcIBZXJhRkyCPt89dBknCye35Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721344301979-gh6uotbhhcbco5m55mdoeipf508t20fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

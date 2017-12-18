@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:background="@drawable/mountain">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:background="@drawable/fon">
+
+
+            <TextView
+
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/Tarih"
+                android:layout_alignBottom="@+id/Tarih"
+                android:layout_alignParentStart="true"
+                android:text="Tarih"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tarih"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="13dp"
+                android:text="Tarih"
+                android:textSize="20dp"
+                android:layout_above="@+id/Derece"
+                android:layout_alignStart="@+id/Derece" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/Sure"
+                android:layout_alignParentStart="true"
+                android:text="Süre"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Sure"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_alignStart="@+id/Derece"
+                android:layout_below="@+id/Derece"
+                android:layout_marginTop="18dp"
+                android:text="sure"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/Derece"
+                android:text="Derece"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Derece"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="14dp"
+                android:text="derece"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
